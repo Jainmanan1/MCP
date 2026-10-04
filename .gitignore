@@ -1,0 +1,52 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Vector store / local databases
+chroma_db/
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and debug output
+*.log
+output.log
+debug_output.log
+heartbeat.txt
+
+# RAGAS / eval artifacts
+evals/results/
+.ragas_cache/
+*.ragas_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Test/scratch files (adjust or remove if you want these tracked)
+test.py
+scratch.py
