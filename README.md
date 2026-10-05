@@ -65,9 +65,13 @@ model's decision to a fixed classification rather than free tool selection.
   (for the vector store's embeddings)
 - A Google AI Studio API key ([aistudio.google.com](https://aistudio.google.com)) — free tier, no credit card required
 
+```bash
+pip install langchain langchain-chroma langchain-ollama langchain-google-genai mcp python-dotenv
+```
 
 
 Create a `.env` file:
+api_key=your_google_gemini_api_key_here
 
 
 ## Known Limitations
